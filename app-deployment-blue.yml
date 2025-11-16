@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: leenusfelex/bankapp:blue # Adjust the image tag for the blue version
+        image: leenus-devops/bankapp:blue # Adjust the image tag for the blue version
         ports:
         - containerPort: 8080
         env:
